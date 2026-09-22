@@ -1,52 +1,59 @@
 # Hi, I'm Sophran 👋
 
-Web3 frontend developer focused on wallet UX, onchain security,
-and reliable data-heavy interfaces.
+Web3 frontend engineer focused on wallet UX, onchain security, and reliable data-heavy interfaces.
 
-Open to Web3 frontend roles, as well as React / Next.js frontend opportunities.
+I build practical applications with React, TypeScript, Next.js, and Ethereum tooling. I also contribute bug fixes and regression tests to established open-source projects.
 
-## Tech Stack
-
-- Frontend: React, Next.js, TypeScript, Vue, Tailwind CSS
-- Web3: wagmi, viem, RainbowKit, ENS, EIP-712, Permit2
-- Engineering: Vitest, Playwright, GitHub Actions, Vercel
-- Additional: Chrome Extensions, Tauri, SQLite
+Open to Web3 frontend and React / Next.js frontend opportunities.
 
 ## Featured Projects
 
-### 🔍 0x Lens
+### [Sophran Tools](https://github.com/Sophran-fbj/sophran-tools)
 
-A privacy-first Chrome extension that reveals onchain identity when
-hovering Ethereum addresses and ENS names.
+A Web3 security toolkit for inspecting token approvals, calldata, and EIP-712 signatures.
 
-- Chrome Manifest V3 and isolated Shadow DOM overlays
-- ENS resolution, EIP-55 validation and EIP-7702 detection
-- Multicall-based contract metadata lookup
-- Automated browser and RPC verification
+- Analyzes ERC-20, ERC-721, and Permit2 approvals
+- Supports wallet-based revocation with chain validation and transaction simulation
+- Built with Next.js, React, TypeScript, wagmi, viem, RainbowKit, and TanStack Query
+- Tested with Vitest and Playwright
+
+[Live Demo](https://sophran-tools.vercel.app) · [Repository](https://github.com/Sophran-fbj/sophran-tools)
+
+### [Transaction Cinema](https://github.com/Sophran-fbj/transaction-cinema)
+
+Turns an onchain transaction into a short animated visual story using RPC data directly.
+
+- Decodes transaction activity without requiring a wallet connection or indexing API
+- Presents transfers and contract interactions through an animated timeline
+- Built with Next.js, React, TypeScript, viem, TanStack Query, and Framer Motion
+- Includes unit and browser-level tests
+
+[Live Demo](https://transaction-cinema.vercel.app) · [Repository](https://github.com/Sophran-fbj/transaction-cinema)
+
+### [0x Lens](https://github.com/Sophran-fbj/0x-lens)
+
+A privacy-first browser extension that reveals onchain identity when hovering over Ethereum addresses or ENS names.
+
+- Resolves ENS identities and validates Ethereum addresses
+- Detects contracts and EIP-7702 delegated accounts
+- Uses multicall for efficient onchain metadata lookup
+- Built with React, TypeScript, viem, WXT, and Shadow DOM isolation
 
 [Repository](https://github.com/Sophran-fbj/0x-lens)
 
-### 🛡️ Sophran Tools
+## Open Source Contributions
 
-A Web3 security toolkit for inspecting token approvals, calldata
-and EIP-712 signatures.
+Contributed bug fixes and regression tests to established React and Web3 projects:
 
-- Ethereum, Base, Arbitrum and Optimism
-- ERC-20, ERC-721 and Permit2 approval analysis
-- Wallet-based revocation with chain validation and simulation
-- Vitest, Playwright and continuous integration
+- **[react-admin](https://github.com/marmelab/react-admin)** — Fixed a React 19 `TabbedForm` update loop ([#11379](https://github.com/marmelab/react-admin/pull/11379)) and corrected `storeKey={false}` handling in `PrevNextButtons` ([#11371](https://github.com/marmelab/react-admin/pull/11371)).
+- **[Blockscout Frontend](https://github.com/blockscout/frontend)** — Improved token-transfer navigation in advanced-filter address fields ([#3701](https://github.com/blockscout/frontend/pull/3701)).
 
-[Live Demo](https://sophran-tools.vercel.app) ·
-[Repository](https://github.com/Sophran-fbj/sophran-tools)
+## Other Work
 
-### 📋 RoleTrace
-
-An evidence-grounded job-fit analysis application built with
-Next.js, TypeScript and structured AI output validation.
-
-[Repository](https://github.com/Sophran-fbj/role-trace)
+- **[RoleTrace](https://github.com/Sophran-fbj/role-trace)** — Evidence-grounded job-fit analysis with structured AI output validation.
+- **[Floaty](https://github.com/Sophran-fbj/floaty)** — A lightweight desktop sticky-notes application built with Tauri, React, and SQLite.
 
 ## Contact
 
-- Email: bujue0feng@gmail.com
-- WeChat: clouds_drift_away
+- Email: [bujue0feng@gmail.com](mailto:bujue0feng@gmail.com)
+- WeChat: `clouds_drift_away`
